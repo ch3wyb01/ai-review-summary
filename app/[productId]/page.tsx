@@ -1,3 +1,4 @@
+import { AIReviewSummary } from "@/components/ai-review-summary";
 import { Reviews } from "@/components/reviews";
 import { getProduct, getProducts } from "@/lib/sample-data";
 import { Metadata } from "next";
@@ -26,6 +27,8 @@ export default async function Page({
             {product.description}
           </p>
         </div>
+
+        <AIReviewSummary product={product} />
 
         <Reviews product={product} />
       </div>
