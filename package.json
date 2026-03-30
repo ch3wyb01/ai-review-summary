@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "ai": "^6.0.141",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.6.0",
